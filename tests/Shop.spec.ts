@@ -29,7 +29,7 @@ test.describe('Nordic Shop tests', async () => {
 
 // 1. TL-16-4 place order button test with delivery check + validation
 
-    test('Place order button test with delivery check + validation', async ({page}) => {
+    test('Place order button test with delivery check + validation', async () => {
     const testData = {
         deliveryCostNumber: '€3.99',
         totalSumNumber: '€82.99',

@@ -21,7 +21,7 @@ test.describe('Create order page - tests', () => {
 //2. TL-16-2 change language
 //3. TL-16-3 incorrect email blocks create button and shows error
 
-    test('Create order button becomes enabled after filling in all fields', async ({page}) => {
+    test('Create order button becomes enabled after filling in all fields', async () => {
         await expect(createOrderButton).toBeDisabled()
         await firstNameInput.fill('Peter');
         await lastNameInput.fill('Pan');
